@@ -64,11 +64,43 @@ color: #0a0a23;
     word-wrap: break-word;
     min-height: 50px;
     color: white;
+    width: min(100vw, 450px);
+    min-height: 100px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 6px 6px #0a0a23;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   
 
   .error {
     color: red;
-    margin-top: 10px 0;
+    width: min(100vw, 450px);
+    min-height: 100px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 6px 6px #0a0a23;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
+  
+  
+  
+
+
   
