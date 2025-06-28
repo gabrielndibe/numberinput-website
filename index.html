@@ -8,9 +8,9 @@
 </head>
 <body>
     <div class="grade-div">
-        <label for="score-input">Enter in score to check for your grade:
+        <label for="score-input">Enter a score between 0 and 100 to get your grade.
       </label>
-   <input type="number" placeholder="Enter score" id="score-input"></input> 
+   <input type="number" placeholder="Enter score (0-100)" min="0" max="100" id="score-input" required></input> 
 <button type="submit" id="check-btn" onclick="calculateGrade()">Check</button>
    </div>
    <div id="errorMessage" class="error"></div>
