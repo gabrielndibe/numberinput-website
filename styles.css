@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    background-color: #0a0a23;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
+}
+.grade-div{
+
+    width: min(100vw, 450px);
+    min-height: 100px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: white;
+    box-shadow: 0 6px 6px #0a0a23;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+label {
+color: #0a0a23;
+  margin-bottom: 20px;
+}
+#score-input {
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid #0a0a23;
+}
+#check-btn {
+    width: 90px;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #0a0a23;
+  color: #fff;
+  cursor: pointer;
+}
+#score-input:focus {
+    border-bottom: 3px solid #5a01a7;
+  }
+  
+  #score-input::placeholder {
+    text-align: center;
+    color: #0a0a23;
+  }
+  
+  
+  
+  .results-div {
+    overflow-y: auto;
+    word-wrap: break-word;
+    min-height: 50px;
+    color: white;
+  }
+  
+
+  .error {
+    color: red;
+    margin-top: 10px 0;
+  }
+  

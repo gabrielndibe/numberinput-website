@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Input</title>
+    <link href="./styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="grade-div">
+        <label for="score-input">Enter in score to check for your grade:
+      </label>
+   <input type="number" placeholder="Enter score" id="score-input"></input> 
+<button type="submit" id="check-btn" onclick="calculateGrade()">Check</button>
+   </div>
+   <div id="errorMessage" class="error"></div>
+   <div class="results-div hidden" id="result"></div>
+   <script src="script.js"></script>
+</body>
+</html>
