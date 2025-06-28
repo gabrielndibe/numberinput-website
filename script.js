@@ -1,4 +1,3 @@
-
 function calculateGrade() {
  const input = document.getElementById("score-input");
    const score = parseFloat(input.value);
@@ -12,12 +11,10 @@ resultDiv.textContent= "";
     errorMessage.textContent = "Please enter a valid score between 0 and 100";
    setTimeout(() => {
     errorMessage.textContent= "";
-   }, 60000);
+   }, 3000);
     return;
-
-    
- }
- let grade;
+}
+ 
  if (score >= 90) {
     grade = "A";
  } else if (score >= 75) {
@@ -29,6 +26,6 @@ resultDiv.textContent= "";
 } else {
     grade = "E";
 }
-resultDiv.textContent = (`You got ${grade}`);
+alert(`You got ${grade}`);
 input.value = "";
 }
